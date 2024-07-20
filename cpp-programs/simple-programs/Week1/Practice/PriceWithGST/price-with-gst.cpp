@@ -12,8 +12,16 @@ int main(void){
     cout << "Enter the price in cents: ";
     cin >> price_cents; // Prompt for price
 
-    gst = price_cents * (15/100);
+    gst = price_cents * 15 / 100;
     final_price = price_cents + gst; // Calculate final price with gst
 
-    cout << "Price tag: " << final_price / 100 << "." << final_price % 100; // Price in dollars
+    cout << "GST in cents is: " << gst << endl;
+    cout << "Final price in cents is: " << final_price << endl;
+
+    if (final_price < 10){
+        cout << "Price tag: $" << final_price / 100 << "." << final_price % 100 << "0"; 
+    }
+    else{
+        cout << "Price tag: $" << final_price / 100 << "." << final_price % 100;
+    }
 }
