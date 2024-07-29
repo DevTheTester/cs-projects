@@ -1,3 +1,7 @@
+/* 
+
+// Version 1
+
 #include <iostream>
 using namespace std;
 
@@ -22,3 +26,20 @@ int main(void) {
         cout << year << " is NOT a leap year.";
     }
 }
+
+*/
+
+// Version 2
+
+#include <iostream> 
+using namespace std;
+
+int year, is_leap_year;
+
+int main(){
+    cout << "Enter a year: "; 
+    cin >> year; 
+
+    if (!(year % 4) && year )
+}
+
