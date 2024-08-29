@@ -1,3 +1,5 @@
 cpp-programs/simple-programs/Assignment1/difference-date.cpp
 cpp-programs/simple-programs/Assignment1/difference-date.exe
 cpp-programs/simple-programs/Assignments/a2-diving-score.cpp
+.gitignore
+.vscode
