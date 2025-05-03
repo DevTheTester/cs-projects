@@ -1,6 +1,14 @@
 {
     "files.associations": {
         "utility": "cpp",
-        "ostream": "cpp"
+        "ostream": "cpp",
+        "iostream": "cpp",
+        "cmath": "cpp",
+        "atomic": "cpp",
+        "memory": "cpp",
+        "string": "cpp",
+        "xstring": "cpp",
+        "iterator": "cpp",
+        "xutility": "cpp"
     }
 }
