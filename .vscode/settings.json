@@ -9,6 +9,13 @@
         "string": "cpp",
         "xstring": "cpp",
         "iterator": "cpp",
-        "xutility": "cpp"
+        "xutility": "cpp",
+        "fstream": "cpp",
+        "iomanip": "cpp",
+        "xlocale": "cpp",
+        "xlocinfo": "cpp",
+        "iosfwd": "cpp",
+        "ios": "cpp",
+        "xiosbase": "cpp"
     }
 }

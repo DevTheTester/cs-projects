@@ -1,0 +1,5 @@
+130F   ; LD R3, 0F
+140F0  ; LD R4, F0
+C354   ; AND R5 = R3 & R4
+4522   ; ST R5, 22
+E000   ; HALT
